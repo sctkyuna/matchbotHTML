@@ -2,6 +2,8 @@ A small javascript library to create a chatbox. Simple methods such as
 creating the chat window and printing to the chatwindow, given a message,
 are defined.
 
+STATUS: complete
+
 USAGE
 1) DECLARE a div as class 'chatwindow' (see index.html).
 3) DEFINE a function, 'speak', which defines how the user wants to do with the
@@ -14,3 +16,7 @@ USAGE
 4) Use the function chatWindow.hear to print received text to the chat window.
 
 
+Note: This library is an extension of the matchbot project from the 
+Tri-Co hackathon (http://hackathon.haverford.edu/) on January 25th, 2014, for
+which I wrote the pure-HTML, javascript, and css files 
+(at https://github.com/samzhang111/matchbot-plusplus).
