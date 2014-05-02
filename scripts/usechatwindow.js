@@ -1,22 +1,16 @@
 //example use case by library user
 
-//set current username
+// set current username
 currentUser = "USER1"; 
 
-var speak = function() {
+var speak = function(uIn) {
 	// what we want to call when currentUser
 	console.log("in speak"); 
 };
 
+// create instance of chat window
 var chatwindow = new ChatWindow(speak);
 
+// print received messages to the chat window
 chatWindow.hear("USER2", "words from other user");
 
-/*user code
-var say = function() {
-	// where we want userinput to go
-};
-var chatWindow = new ChatWindow({ say: say });
-// user calls hear whenever they get input	
-chatWindow.hear(username, "words from other user");
-*/

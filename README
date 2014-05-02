@@ -1,0 +1,16 @@
+A small javascript library to create a chatbox. Simple methods such as
+creating the chat window and printing to the chatwindow, given a message,
+are defined.
+
+USAGE
+1) DECLARE a div as class 'chatwindow' (see index.html).
+3) DEFINE a function, 'speak', which defines how the user wants to do with the
+   input (e.g. send to a server, post to a different chatwindow instance).
+   The user must create the framework for getting and receiving the message
+   between two chatwindow instances (usechatwindow.js).
+3) CREATE an instance of a chatwindow object (see scripts/usechatwindow.js).
+   Pass in 'speak' as a PARAMETER to the chatwindow. The chatwindow will call
+   this function whenever a user inputs text into the chat window's input box.
+4) Use the function chatWindow.hear to print received text to the chat window.
+
+
